@@ -116,7 +116,7 @@ export const projectDetails = [
   {
     title: "Chat Messager",
     image: chat,
-    description :`This is a real time messaging web application where we can send messages and recived messages and those data are stored in a database`,
+    description :`This is a real-time messaging web application that facilitates the exchange of messages, enabling users to both send and receive messages. Additionally, all data generated through these interactions is securely stored in a database.`,
     techstack: "React js, MongoDB, Socket.io, Express",
     previewLink : "https://chat-messager.onrender.com/",
     githubLink: "https://github.com/BiswajitDeori/Chat-Messager"

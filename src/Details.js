@@ -17,11 +17,14 @@ import VS from './assets/techstack/VisualStudio.png'
 import Jupyter from './assets/techstack/Jupyter.png'
 import C from './assets/techstack/C++.png'
 
+import MongoDb from './assets/techstack/MongoDb.png'
+
 import MySql from './assets/techstack/MySQL.png'
 import Translator from "./assets/ui/Translator.png";
 import Rock from "./assets/ui/Rock.png";
 import Nutration from "./assets/ui/Nutration.png";
 import Movies from './assets/ui/Movies.png'
+import chat from './assets/ui/chat.png'
 
 
 export const personalDetails = {
@@ -104,11 +107,21 @@ export const techStackDetails = {
   VS,
   Jupyter,
   C,
-  MySql
+  MySql,
+  MongoDb,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Chat Messager",
+    image: chat,
+    description :`This is a real time messaging web application where we can send messages and recived messages and those data are stored in a database`,
+    techstack: "React js, MongoDB, Socket.io, Express",
+    previewLink : "https://chat-messager.onrender.com/",
+    githubLink: "https://github.com/BiswajitDeori/Chat-Messager"
+
+  },
   {
     title: "Text Translation",
     image: Translator,

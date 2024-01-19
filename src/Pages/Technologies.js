@@ -16,7 +16,8 @@ function Technologies() {
     VS,
     Jupyter,
     C,
-    MySql
+    MySql,
+    MongoDb
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 " >
@@ -37,6 +38,7 @@ function Technologies() {
         <img src={tenserFlow} width={"100px"}  title="tenserFlow" alt="" />
         <img src={DotNet} title="DotNet" alt="" />
         <img src={python}  title="python" alt="" />
+        <img src={MongoDb} title="MongoDB" alt="" />
         <img src={C}   title="C++" alt="" />
         <img src={MySql} title="MySQL" alt=""/>
       </section>

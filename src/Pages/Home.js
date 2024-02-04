@@ -74,7 +74,7 @@ function Home() {
       <div>
       <h1
       ref={h11}
-      className="text-2xl text-dark-heading dark:text-light-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+      className="text-2xl text-dark-heading   md:text-4xl xl:text-5xl xl:leading-tight font-bold"
     >
     Hey! 👋
     </h1>
@@ -87,11 +87,11 @@ function Home() {
         <h2
         
           ref={h13}
-          className="text-3xl  text-dark-heading dark:text-light-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-3xl  text-dark-heading   md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           Full Stack Developer
         </h2>
-        <div className="mt-5 text-3xl text-dark-heading dark:text-light-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold" >
+        <div className="mt-5 text-3xl text-dark-heading  md:text-4xl xl:text-5xl xl:leading-tight font-bold" >
       <a ref={a1}
         href="https://drive.google.com/file/d/1h98au8bULq6_jekHfKr9ZmoUAqcGhQl3/view?usp=sharing" 
         className="bg-blue-500 text-white text-lg px-4 py-2 rounded-full transition duration-300 hover:bg-blue-700"

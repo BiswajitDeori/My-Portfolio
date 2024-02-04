@@ -2,7 +2,7 @@ import React from "react";
 
 function Work({ position, company, location, type, duration ,exprince,details}) {
   return (
-    <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
+    <article className="pt-8 border-b-2 border-dark-content pb-5  border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
         <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
         <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
@@ -26,7 +26,7 @@ function Work({ position, company, location, type, duration ,exprince,details}) 
           </div>
           <div className="flex items-center">
             <svg
-              className="dark:fill-light-heading fill-dark-heading min-w-fit"
+              className=" fill-dark-heading min-w-fit"
               width="16"
               height="12"
               viewBox="0 0 16 12"

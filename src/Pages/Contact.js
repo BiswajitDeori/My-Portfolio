@@ -2,24 +2,21 @@ import React from "react";
 
 function Contact() {
   return (
-    <main className="container mx-auto max-width section">
-        <div className="bg-white rounded-lg shadow-lg p-6 m-4">
-      <h1 className="text-3xl font-bold mb-4 ">Contact Information</h1>
-      <div className="bg-gray-200 p-4 rounded-lg shadow-md">
-        <p >
-          <span className="font-semibold ">Name:</span> Biswajit Deori
-        </p>
-        <p >
-          <span className="font-semibold ">Email:</span> biswajitdeori09@gmail.com
-        </p>
-        <p >
-          <span className="font-semibold ">Phone:</span> 999XXXXXXXX
-        </p>
-        <p >
-          <span className="font-semibold " >Address:</span> India (IN) ,Assam
-        </p>
+    <main className="container mx-auto px-4 py-10 max-w-screen-lg">
+      <div className="bg-white rounded-xl shadow-xl p-8 m-6">
+        <h1 className="text-3xl font-extrabold text-gray-800 mb-6">Contact Information</h1>
+        <div className="bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 p-6 rounded-xl shadow-md">
+          <p className="text-lg mb-4">
+            <span className="font-semibold text-gray-700">Name:</span> Biswajit Deori
+          </p>
+          <p className="text-lg mb-4">
+            <span className="font-semibold text-gray-700">Email:</span> biswajitdeori09@gmail.com
+          </p>
+          <p className="text-lg mb-4">
+            <span className="font-semibold text-gray-700">Address:</span> India (IN), Assam
+          </p>
+        </div>
       </div>
-    </div>
     </main>
   );
 }

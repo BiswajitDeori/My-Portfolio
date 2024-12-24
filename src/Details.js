@@ -16,7 +16,11 @@ import VS from "./assets/techstack/VisualStudio.png";
 import Jupyter from "./assets/techstack/Jupyter.png";
 import C from "./assets/techstack/C++.png";
 
+import Microsoft_Net from './assets/techstack/.Net.png'
 import MongoDb from "./assets/techstack/MongoDb.png";
+
+import Azure from './assets/techstack/Azure.png'
+import Postgres from './assets/techstack/Postgres.png'
 
 import MySql from "./assets/techstack/MySQL.png";
 import Translator from "./assets/ui/Translator.png";
@@ -35,36 +39,39 @@ export const personalDetails = {
 // Experience
 export const workDetails = [
   {
-    Position: "Full Stack .NET Developer",
-    Company: `Optun UHG`,
+    Position: "Software Engineer",
+    Company: "Optum UHG",
     Location: "Hyderabad (TG)",
     Type: "Full Time",
-    Duration: "Sep 2022 - Present",
+    Duration: "Jul 2022 - Present",
     Exprince: true,
     ExprinceDetails: [
-      "Extensively worked on .NET applications using C#, ASP.NET, and web services.",
-      "Designed user interfaces using HTML, JavaScript, and CSS to enhance the front-end experience",
-      "Created stored procedures and various database objects within Microsoft SQL Server.",
-      "Developed React pages and components while implementing Redux state management and custom packages.",
-      "Wrote comprehensive unit test cases to achieve and maintain 100% code coverage.",
-      "Established an automated pipeline for SQL query rollback, ensuring swift response to deployment issues.",
-      "Fixed Bug present in Production",
+      "Optimized application rendering speed by 37% by eliminating redundant API calls and implementing asynchronous operations in React, leveraging Azure cloud services for enhanced performance and scalability.",
+      "Developed and maintained a high-performance React application with Redux state management and Zustand, enhancing data handling efficiency.",
+      "Delivered 20+ new features over a 6-month period.",
+      "Achieved 100% code coverage by writing comprehensive unit tests, ensuring application stability and reducing post-production defects.",
+      "Designed and deployed cloud-native microservices and RESTful APIs using Azure, ensuring efficient communication and seamless integration across services.",
+      "Automated complex workflows with Python, Azure Functions, and Durable Functions, reducing manual intervention by 40% and enabling efficient orchestration of long-running, stateful processes.",
+      "Managed deployment processes in production environments using CI/CD pipelines, ensuring seamless, reliable releases across distributed systems.",
+      "Integrated Power BI for enhanced business intelligence and visualization, enabling data-driven decision-making across teams.",
     ],
   },
   {
     Position: "Internship",
-    Company: `National institute of Techonology`,
-    Location: "Silcahar",
-    Type: "Internship / Machine learning",
-    Duration: "Oct 2021 -  Dec 2021",
+    Company: "National Institute of Technology",
+    Location: "Silchar",
+    Type: "SN Bose Internship Program",
+    Duration: "Jun 2021 - Jul 2021",
     Exprince: true,
     ExprinceDetails: [
-      "Working on optical character recognition",
-      "Train a model using Own datasets",
-      "Use it in a real-time environment to detect mathematical expressions and handwritten Numbers.",
+      "Developed an optimized optical character recognition (OCR) model using CNN, MSER, and TensorFlow.",
+      "Trained and optimized the model with datasets to detect handwritten numbers and mathematical expressions in real-time environments.",
+      "Achieved over 92% model accuracy in detecting handwritten numbers and mathematical expressions.",
+      "Skills used: Python, TensorFlow, OpenCV.",
     ],
   },
 ];
+
 
 //Education Details
 export const eduDetails = [
@@ -111,7 +118,7 @@ export const techStackDetails = {
   github: github,
   gitAction: GitAction,
   flask: Flask,
-  DotNet: Net,
+  DotNet: Microsoft_Net,
   python: Python,
   tenserFlow: tenserFlow,
   VS,
@@ -119,6 +126,8 @@ export const techStackDetails = {
   C,
   MySql,
   MongoDb,
+  Postgres,
+  Azure
 };
 
 // Enter your Project Details here

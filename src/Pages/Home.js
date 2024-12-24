@@ -18,30 +18,46 @@ function Home() {
       duration: 1.2,
       ease: "Power3.easeOut",
     })
-      .from(h12.current, {
-        x: "-100%",
-        opacity: 0,
-        duration: 1.2,
-        ease: "Power3.easeOut",
-      }, "<0.3")
-      .from(h13.current, {
-        x: "-100%",
-        opacity: 0,
-        duration: 1.2,
-        ease: "Power3.easeOut",
-      }, "<0.3")
-      .from(myimageref.current, {
-        x: "100%",
-        opacity: 0,
-        duration: 1.5,
-        ease: "Power3.easeOut",
-      }, "<0.3")
-      .from(a1.current, {
-        y: "50px",
-        opacity: 0,
-        duration: 1.5,
-        ease: "Power3.easeOut",
-      }, "<0.3");
+      .from(
+        h12.current,
+        {
+          x: "-100%",
+          opacity: 0,
+          duration: 1.2,
+          ease: "Power3.easeOut",
+        },
+        "<0.3"
+      )
+      .from(
+        h13.current,
+        {
+          x: "-100%",
+          opacity: 0,
+          duration: 1.2,
+          ease: "Power3.easeOut",
+        },
+        "<0.3"
+      )
+      .from(
+        myimageref.current,
+        {
+          x: "100%",
+          opacity: 0,
+          duration: 1.5,
+          ease: "Power3.easeOut",
+        },
+        "<0.3"
+      )
+      .from(
+        a1.current,
+        {
+          y: "50px",
+          opacity: 0,
+          duration: 1.5,
+          ease: "Power3.easeOut",
+        },
+        "<0.3"
+      );
   }, []);
 
   return (
@@ -70,7 +86,7 @@ function Home() {
           <a
             ref={a1}
             href="https://drive.google.com/file/d/1HYy0Y2B5AdETvbKA2oiOFNh5yKkttAIQ/view?usp=sharing"
-            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white text-lg px-6 py-3 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white text-lg px-6 py-3 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-l"
             target="_blank"
             rel="noopener noreferrer"
           >

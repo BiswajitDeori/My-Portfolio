@@ -83,7 +83,7 @@ function Home() {
       <div className="md:w-1/2 flex justify-center md:justify-end">
         <img
           ref={myimageref}
-          className="w-3/4 md:w-2/3 rounded-lg shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:rotate-3 hover:opacity-90"
+          className="w-3/4 md:w-2/3 rounded-lg shadow-lg  transform hover:scale-105 hover:shadow-2xl hover:rotate-3 hover:opacity-90"
           src={img}
           alt="Profile of Biswajit Deori"
         />

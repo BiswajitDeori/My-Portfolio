@@ -30,6 +30,7 @@ import Movies from "./assets/ui/Movies.png";
 import chat from "./assets/ui/chat.png";
 import FileShare from "./assets/ui/FileShare.png";
 import Amazon from "./assets/ui/Amazon.png";
+import ML from "./assets/ui/ML.jpg";
 
 export const personalDetails = {
   name: "Biswajit Deori",
@@ -48,12 +49,15 @@ export const workDetails = [
     ExprinceDetails: [
       "Optimized application rendering speed by 37% by eliminating redundant API calls and implementing asynchronous operations in React, leveraging Azure cloud services for enhanced performance and scalability.",
       "Developed and maintained a high-performance React application with Redux state management and Zustand, enhancing data handling efficiency.",
-      "Delivered 20+ new features over a 6-month period.",
-      "Achieved 100% code coverage by writing comprehensive unit tests, ensuring application stability and reducing post-production defects.",
+      "Delivered 20+ new features over a 6-month period, ensuring robust and scalable software solutions that align with business objectives.",
+      "Achieved 100% code coverage by writing comprehensive unit tests using Jest and React Testing Library, ensuring application stability and reducing post-production defects.",
       "Designed and deployed cloud-native microservices and RESTful APIs using Azure, ensuring efficient communication and seamless integration across services.",
+      "Developed role-based access control (RBAC) for granular permissions and secure user authentication, ensuring compliance with data protection standards.",
       "Automated complex workflows with Python, Azure Functions, and Durable Functions, reducing manual intervention by 40% and enabling efficient orchestration of long-running, stateful processes.",
-      "Managed deployment processes in production environments using CI/CD pipelines, ensuring seamless, reliable releases across distributed systems.",
+      "Managed deployment processes in production environments using CI/CD pipelines (Azure DevOps), ensuring seamless, reliable releases across distributed systems.",
+      "Implemented logging, and monitoring to detect and mitigate security threats in real-time.",
       "Integrated Power BI for enhanced business intelligence and visualization, enabling data-driven decision-making across teams.",
+      "Collaborated with cross-functional teams, including product managers, UI/UX designers, and backend engineers, to ensure high-quality software delivery.",
     ],
   },
   {
@@ -64,10 +68,11 @@ export const workDetails = [
     Duration: "Jun 2021 - Jul 2021",
     Exprince: true,
     ExprinceDetails: [
-      "Developed an optimized optical character recognition (OCR) model using CNN, MSER, and TensorFlow.",
-      "Trained and optimized the model with datasets to detect handwritten numbers and mathematical expressions in real-time environments.",
-      "Achieved over 92% model accuracy in detecting handwritten numbers and mathematical expressions.",
-      "Skills used: Python, TensorFlow, OpenCV.",
+      "Developed an optimized optical character recognition (OCR) model using CNN, MSER, and TensorFlow, improving handwritten digit recognition accuracy.",
+      "Trained and optimized the model with custom datasets, preprocessing images using OpenCV to improve recognition efficiency in real-time applications.",
+      "Achieved over 92% model accuracy in detecting handwritten numbers and mathematical expressions, surpassing baseline OCR solutions.",
+      "Deployed the OCR model as a Flask-based API, enabling integration with real-world applications for real-time processing.",
+      "Skills used: Python, TensorFlow, OpenCV, Flask, NumPy, Pandas, JWT Authentication, HTTPS Security.",
     ],
   },
 ];
@@ -141,6 +146,15 @@ export const projectDetails = [
     githubLink: "https://github.com/BiswajitDeori/Chat-Messager",
   },
   {
+    title: "Age and Gender Classification using CNN",
+    image: ML,
+    description: 
+      "Developed a machine learning application using TensorFlow to predict gender and age from images. Integrated a React.js UI for real-time image uploads and predictions, achieving 85% accuracy.",
+    techstack: "React.js, API, Machine Learning, Python, Flask, CNN, TensorFlow, OpenCV",
+    previewLink: "https://age-gender-detection-e828.onrender.com/",
+    githubLink: "https://github.com/BiswajitDeori/age-gender-detection.git",
+  },
+  {
     title: "File share",
     image: FileShare,
     techstack: "React js, Material UI, Socket.io , google cloud",
@@ -190,4 +204,5 @@ export const projectDetails = [
     previewLink: "https://nutrationhealth.onrender.com",
     githubLink: "https://github.com/BiswajitDeori/NutrationHealth",
   },
+
 ];
